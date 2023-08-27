@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Main Page</h1>
+    <a href="askDetails">Go to form</a>
 </body>
 </html>

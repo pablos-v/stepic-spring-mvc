@@ -38,3 +38,6 @@ build/
 .DS_Store
 
 /resourses/apache-tomcat-10.1.13/
+/pom.xml
+/src/main/webapp/WEB-INF/img/
+/src/main/webapp/WEB-INF/styles/

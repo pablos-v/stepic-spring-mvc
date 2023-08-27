@@ -8,7 +8,7 @@
 <body>
     <h1>Please enter your details here</h1>
     <form action="showDetails" method="get">
-        <input type="text" name="empName"/> <!-- empName это будет переменная с введённым значением -->
-        <input type="submit"/>
+        <input type="text" name="empName"> <!-- empName это будет переменная с введённым значением -->
+        <input type="submit">
 </body>
 </html>

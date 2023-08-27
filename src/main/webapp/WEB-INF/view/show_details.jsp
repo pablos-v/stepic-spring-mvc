@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    Welcome ${param.empName}!!!! <!-- в переменной empName хранится значение из формы с /askDetails -->
+    Welcome ${employeeName}!!!! <!-- в переменной empName хранится значение из формы с /askDetails -->
 </body>
 </html>
