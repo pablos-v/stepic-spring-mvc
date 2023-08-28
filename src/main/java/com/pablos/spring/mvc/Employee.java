@@ -6,6 +6,25 @@ public class Employee {
     private int salary;
     private String department;
 
+    private String os;
+    private String[] langs;
+
+    public String[] getLangs() {
+        return langs;
+    }
+
+    public void setLangs(String[] langs) {
+        this.langs = langs;
+    }
+
+    public String getOs() {
+        return os;
+    }
+
+    public void setOs(String os) {
+        this.os = os;
+    }
+
     public Employee() {
     }
 

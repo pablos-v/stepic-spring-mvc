@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52627802-a4b0-4137-a191-2d94fdd9bd19" name="Changes" comment="(FIXED) example with SPRING form and @ModelAttribute&#10;on few pages">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/22.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/Ellipse.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-mid-background_desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-mid-bgrd-mob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/f-mid-bgrd-tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/logoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/mid-kids.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/mid-men.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/mid-rect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/mid-women.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/top-rectangle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles/style.css" afterDir="false" />
+    <list default="true" id="52627802-a4b0-4137-a191-2d94fdd9bd19" name="Changes" comment="example with SPRING form and form:select&#10;on few pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/OtroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/OtroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_ask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_ask.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_details.jsp" afterDir="false" />
     </list>
@@ -166,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693237664606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="example with SPRING form and form:select&#10;on few pages">
+      <created>1693260997747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693260997747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +174,7 @@
     <MESSAGE value="example with form and @RequestParam&#10;with few pages" />
     <MESSAGE value="example with SPRING form and @ModelAttribute&#10;on few pages" />
     <MESSAGE value="(FIXED) example with SPRING form and @ModelAttribute&#10;on few pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="(FIXED) example with SPRING form and @ModelAttribute&#10;on few pages" />
+    <MESSAGE value="example with SPRING form and form:select&#10;on few pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="example with SPRING form and form:select&#10;on few pages" />
   </component>
 </project>

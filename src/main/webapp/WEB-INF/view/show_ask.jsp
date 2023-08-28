@@ -21,6 +21,16 @@
         <form:option value="Management" label="Head"/>
         </form:select>
         <br>
+        You are using:
+        Win <form:radiobutton path="os" value="Windows"/>
+        MAC <form:radiobutton path="os" value="Apple"/>
+        Lin <form:radiobutton path="os" value="Linux"/>
+        <br>
+        Languages you know:
+        Java <form:checkbox path="langs" value="Java"/>
+        JS <form:checkbox path="langs" value="Java Script"/>
+        C++ <form:checkbox path="langs" value="C++"/>
+        <br>
         <input type="submit" value="SendData">
     </form:form>
 <!-- при выводе строк формы, сработают геттеры для класса, который лежит в атрибуте "employee",
