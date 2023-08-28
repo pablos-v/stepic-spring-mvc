@@ -15,6 +15,12 @@
         <br>
         Salary <form:input path="salary"/>
         <br>
+        Department <form:select path="department">
+        <form:option value="InfoTech" label="IT"/> <!-- видно "IT", при выборе в поле department упадёт "InfoTech" -->
+        <form:option value="Kadrovik" label="HR"/>
+        <form:option value="Management" label="Head"/>
+        </form:select>
+        <br>
         <input type="submit" value="SendData">
     </form:form>
 <!-- при выводе строк формы, сработают геттеры для класса, который лежит в атрибуте "employee",

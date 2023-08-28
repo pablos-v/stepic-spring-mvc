@@ -8,5 +8,6 @@
 <body>
     Welcome ${employee.name} ${employee.surname}
     Your salary: ${employee.salary}
+    You are working in ${employee.department}
 </body>
 </html>

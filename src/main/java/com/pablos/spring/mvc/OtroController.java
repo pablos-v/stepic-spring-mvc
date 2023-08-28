@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class OtroController {
 
     @RequestMapping("/showDetails")
-    public String showDetails(@ModelAttribute("employee") Employee emp) { // можно читать реквесты и сувать в модель на хранение
+    public String showDetails(@ModelAttribute("employee") Employee emp) { // олучаем доступ к атрибуту модели типа Employee
         String name = emp.getName();
         emp.setName("Mr " + name); // модифицировать
 
