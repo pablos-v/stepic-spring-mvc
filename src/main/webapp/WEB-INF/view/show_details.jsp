@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    Welcome ${employeeName}!!!! <!-- в переменной empName хранится значение из формы с /askDetails -->
+    Welcome ${employee.name} ${employee.surname}
+    Your salary: ${employee.salary}
 </body>
 </html>

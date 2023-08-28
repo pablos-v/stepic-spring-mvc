@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +8,17 @@
 </head>
 <body>
     <h1>Please enter your details here</h1>
-    <form action="showDetails" method="get">
-        <input type="text" name="empName"> <!-- empName это будет переменная с введённым значением -->
-        <input type="submit">
+    <form:form action="showDetails" modelAttribute="employee"> <!-- атрибут модели, в который всё сохранится -->
+        Name <form:input path="name"/> <!-- строка ввода -->
+        <br>
+        SurName <form:input path="surname"/>
+        <br>
+        Salary <form:input path="salary"/>
+        <br>
+        <input type="submit" value="SendData">
+    </form:form>
+<!-- при выводе строк формы, сработают геттеры для класса, который лежит в атрибуте "employee",
+в поля вставятся пустые значения (инициаизация была пустым конструктором)
+, затем после нажатия "submit" сработают сеттеры -->
 </body>
 </html>

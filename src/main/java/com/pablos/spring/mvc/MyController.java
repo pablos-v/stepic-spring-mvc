@@ -1,6 +1,7 @@
 package com.pablos.spring.mvc;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller // это контроллер !!!
@@ -17,7 +18,8 @@ public class MyController {
     }
 
     @RequestMapping("/askDetails")
-    public String showAsk() {
+    public String showAsk(Model model) {
+        model.addAttribute("employee", new Employee());
         return "show_ask";
     }
 }
