@@ -9,11 +9,15 @@
 <body>
     <h1>Please enter your details here</h1>
     <form:form action="showDetails" modelAttribute="employee"> <!-- атрибут модели, в который всё сохранится -->
-        Name <form:input path="name"/> <!-- строка ввода -->
+        Name <form:input path="name"/> <!-- строка ввода --> <form:errors path="name"/> <!-- форма ошибки, выскочит если надо -->
         <br>
-        SurName <form:input path="surname"/>
+        SurName <form:input path="surname"/> <form:errors path="surname"/>
         <br>
-        Salary <form:input path="salary"/>
+        Salary <form:input path="salary"/> <form:errors path="salary"/>
+        <br>
+        Phone <form:input path="phone"/> <form:errors path="phone"/>
+        <br>
+        Email <form:input path="email"/> <form:errors path="email"/>
         <br>
         Department <form:select path="department">
         <form:option value="InfoTech" label="IT"/> <!-- видно "IT", при выборе в поле department упадёт "InfoTech" -->

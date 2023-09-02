@@ -15,6 +15,10 @@
     <br>
     Your notebook is working at ${employee.os}
     <br>
+    Your phone is ${employee.phone}
+    <br>
+    Your email is ${employee.email}
+    <br>
     Your will code with
     <ul>
     <c:forEach var="lang" items="${employee.langs}">
