@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeWork_9</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -16,8 +17,8 @@
         <header class="back-menu">
             <div class="menu center">
                 <div class="logo">
-                    <a href="#"><img src="img/logoo.png" alt=""></a>
-                    <a href="#"><img src="img/search.svg" alt=""></a>
+                    <a href="#"><img src="<c:url value="/resources/img/logoo.png"/>" alt=""></a>
+                    <a href="#"><img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/search.svg" alt=""></a>
                 </div>
                 <nav class="navigation">
                     <a href="#"><svg class="nav-1" xmlns="http://www.w3.org/2000/svg" width="32" height="23"
@@ -41,9 +42,9 @@
             </div>
         </header>
         <div class="top">
-            <span class="top-img"><img src="img/top.png" alt=""></span>
+            <span class="top-img"><img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/top.png" alt=""></span>
             <div class="top-block">
-                <img src="img/top-rectangle.svg" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/top-rectangle.svg" alt="">
                 <div class="top-block-text">
                     <div class="top-block-text-h1">THE BRAND</div>
                     <div class="top-block-text-text">
@@ -55,7 +56,7 @@
         </div>
         <div class="mid center">
             <div class="mid-block">
-                <img src="img/mid-women.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/mid-women.png" alt="">
                 <div class="shadow-rect"></div>
                 <div class="mid-text">
                     <div class="mid-text-text">30% OFF</div>
@@ -63,7 +64,7 @@
                 </div>
             </div>
             <div class="mid-block">
-                <img src="img/mid-men.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/mid-men.png" alt="">
                 <div class="shadow-rect"></div>
                 <div class="mid-text">
                     <div class="mid-text-text">HOT DEAL</div>
@@ -71,7 +72,7 @@
                 </div>
             </div>
             <div class="mid-block">
-                <img src="img/mid-kids.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/mid-kids.png" alt="">
                 <div class="shadow-rect"></div>
                 <div class="mid-text">
                     <div class="mid-text-text">NEW ARRIVALS</div>
@@ -79,7 +80,7 @@
                 </div>
             </div>
             <div class="accesories mid-block">
-                <img src="img/mid-rect.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/mid-rect.png" alt="">
                 <div class="shadow-rect"></div>
                 <div class="mid-text">
                     <div class="mid-text-text">LUXIROUS & TRENDY</div>
@@ -93,7 +94,7 @@
                 <div class="feat-top-text">Shop for items based on what we featured in this week</div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img1.jpg" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img1.jpg" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,
@@ -103,7 +104,7 @@
                 </div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img2.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img2.png" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img3.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img3.png" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,
@@ -122,7 +123,7 @@
                 </div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img4.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img4.png" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,
@@ -131,7 +132,7 @@
                 </div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img5.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img5.png" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,
@@ -140,7 +141,7 @@
                 </div>
             </div>
             <div class="feat-card">
-                <img src="img/f-img6.png" alt="">
+                <img src="http://localhost:8080/spring_MVC/com.pablos.spring.mvc/resources/img/f-img6.png" alt="">
                 <div class="feat-card-block">
                     <div class="feat-card-block-h1">ELLERY X M'O CAPSULE</div>
                     <div class="feat-card-block-text">Known for her sculptural takes on traditional tailoring,

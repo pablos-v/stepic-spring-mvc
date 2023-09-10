@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52627802-a4b0-4137-a191-2d94fdd9bd19" name="Changes" comment="example with SPRING forms form:input form:select form:radiobutton form:checkbox&#10;on few pages">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/my_validaton/CheckEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/my_validaton/CheckEmailValidator.java" afterDir="false" />
+    <list default="true" id="52627802-a4b0-4137-a191-2d94fdd9bd19" name="Changes" comment="CheckEmail validator created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/OtroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pablos/spring/mvc/OtroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_ask.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_ask.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show_details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/view1.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +68,11 @@
       <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\webapp\WEB-INF\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\webapp\WEB-INF\view" />
       <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\java\com\pablos\spring\mvc" />
       <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\webapp\styles" />
       <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\webapp" />
       <recent name="D:\GB\JAVA\Spring\spring_MVC" />
-      <recent name="D:\GB\JAVA\Spring\spring_MVC\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693264972710</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CheckEmail validator created">
+      <created>1693684253394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693684253394</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +188,7 @@
     <MESSAGE value="(FIXED) example with SPRING form and @ModelAttribute&#10;on few pages" />
     <MESSAGE value="example with SPRING form and form:select&#10;on few pages" />
     <MESSAGE value="example with SPRING forms form:input form:select form:radiobutton form:checkbox&#10;on few pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="example with SPRING forms form:input form:select form:radiobutton form:checkbox&#10;on few pages" />
+    <MESSAGE value="CheckEmail validator created" />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckEmail validator created" />
   </component>
 </project>
